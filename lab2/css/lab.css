@@ -1,15 +1,25 @@
 h1 {
   font-family: "jokerman";
   color: green;
-  font-size: 300%;
-  margin-left: 20px
+  font-size: 400%;
+  margin-left: 30px;
 
 }
 
 p {
   font-family: "eurostile";
-  text-indent: 20px;
-  margin-left: 10px;
-  font-size: 150%;
+  color: green;
+  text-indent: 30px;
+  margin-left: 30px;
+  font-size: 200%
+}
+
+#content {
+  background-color: #E4D00A;
+  width: 800px;
+  min-height: 500px;
+  margin: 20px;
+  border: dotted 15px #FFA500;
+  font-size: 12px;
 
 }
