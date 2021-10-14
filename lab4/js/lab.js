@@ -1,8 +1,8 @@
-// Summary. (use period)
-// Description. (use period)
+// Instructions for creating a word search. (use period)
+// Practice writing pseudocode/comments. (use period)
 // @link   URL
 // @file   This files defines the MyClass class.
-// @author AuthorName.
+// @author Katana Parker and Ryan Palmberg.
 // @since  x.x.x
 
 // Creating a word search game:
