@@ -1,9 +1,9 @@
-// Instructions for creating a word search. (use period)
-// Practice writing pseudocode/comments. (use period)
-// @link   URL
-// @file   This files defines the MyClass class.
-// @author Katana Parker and Ryan Palmberg.
-// @since  x.x.x
+// Instructions for creating a word search.
+// Generates a word search from a list of words, randamizes aditional letters; clicking on words strikes out found words.
+// @link   https://peanutcar.github.io/art101/lab4/index.html
+// @file   This files defines the wordsearch class.
+// @author Katana Parker.
+// @since  10.13.2021
 
 // Creating a word search game:
   // Print a board with a distinct number of randomized letters
