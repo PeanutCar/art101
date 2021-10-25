@@ -1,25 +1,33 @@
 /*
  * Author: Katana Parker <kmparker@ucsc.edu>
- * Created: 20 October 2021
+ * Created: 24 October 2021
  * License: Public Domain
  */
 
 
-//MyTransport - Lists methods I use to get around.
-myTransport = ["feet", "car", "bus", "telekinesis", "chocobo"];
+//reverseUserName - takes a string and returns the reverse of that string. Reverses the characters from an input.
 
-  //MyMainRide - The family car. Describes the car's make, model, color, year, and age.
-myMainRide = {
-      make: "volkswagen",
-      model: "Jetta",
-      color: "Plain Milk",
-      year: 2013,
-      age: function() {
-        return 2021 - year;
-      }
+function reverseUserName() {
+  //userName - Produces a window that gets the user's name.
+  var userName = prompt("Enter name -", "Ai Hasaname");
+  console.log("userName =", userName);
+
+  //make string into an array.
+  var nameArray = userName.split('');
+  console.log("nameArray =", nameArray);
+
+  //sort that array.
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort =", nameArraySort);
+
+  //make the array back into a string.
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted =", nameSorted);
+
+  //these processes can also be done in a single line:
+  //  userName.toLower().split("").sort.join.
+  return nameSorted;
 }
 
-//Output
-document.writeln("How I get around: ", myTransport, "</br>");
-document.writeln("Family Car: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+//output
+document.writeln("Thank you for participating in this Katana System test, ", reverseUserName(), "!", "</br>");
