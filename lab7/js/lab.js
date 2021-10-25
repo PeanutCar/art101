@@ -6,7 +6,7 @@
 
 
 //MyTransport - Lists methods I use to get around.
-myTransport = ["feet", "car", "bus", "telekinesis", "chocobo", "gummi ship"];
+myTransport = ["feet", "car", "bus", "telekinesis", "chocobo"];
 
   //MyMainRide - The family car. Describes the car's make, model, color, year, and age.
 myMainRide = {
