@@ -1,0 +1,33 @@
+h1  {
+  font-family: "helvetica";
+  color: black;
+  text-indent: 30px;
+  margin-left: 30px;
+  font-size: 200%
+}
+
+p  {
+  font-family: "palatino linotype";
+  color: black;
+  text-indent: 20px;
+  margin-left: 20px;
+  font-size: 150%
+}
+
+h2  {
+  font-family: "helvetica";
+  color: black;
+  text-indent: 30px;
+  margin-left: 30px;
+  font-size: 200%
+}
+
+html  {
+  background-color: #ADADC9
+
+
+}
+
+#picture {
+    width: 400px;
+}
