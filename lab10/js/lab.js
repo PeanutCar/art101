@@ -27,4 +27,3 @@
  })
 
  //writes the results in output area
-buttonEl.appendChild.(buttonEl)
