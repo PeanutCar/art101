@@ -27,7 +27,6 @@ function sortsUserName() {
   //these processes can also be done in a single line:
   //  userName.toLower().split("").sort.join.
   return nameSorted;
-
 }
 
 //output

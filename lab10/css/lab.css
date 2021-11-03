@@ -1,0 +1,50 @@
+h1  {
+  font-family: "helvetica";
+  color: black;
+  text-indent: 30px;
+  margin-left: 30px;
+  font-size: 200%
+}
+
+p  {
+  font-family: "palatino linotype";
+  color: black;
+  text-indent: 20px;
+  margin-left: 20px;
+  font-size: 150%
+}
+
+h2  {
+  font-family: "helvetica";
+  color: black;
+  text-indent: 30px;
+  margin-left: 30px;
+  font-size: 200%
+}
+
+html  {
+  background-color: #eb8888
+}
+
+output {
+  font-family: "palatino linotype";
+  color: black;
+  text-indent: 20px;
+  margin-left: 20px;
+  font-size: 150%
+}
+
+button {
+  text-indent: 20px;
+  margin-left: 20px;
+  width: 160px;
+  height: 40px;
+}
+
+input-form {
+  font-family: "palatino linotype";
+  color: black;
+  text-indent: 20px;
+  margin-left: 20px;
+  font-size: 150%
+}
