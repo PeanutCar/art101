@@ -1,29 +1,35 @@
 /*
- * Author: Katana Parker <kmparker@ucsc.edu>
- * Created: 3 November 2021
- * License: Public Domain
+ * Author: Vincent Wenzler and Katana Parker
+ *Created: 3 November 2021
+ *License: Public Domain
  */
 
+// collects name and sorts interval
+  function linearname() {
+    //finds the input for the form
+    var field = document.getElementById("input");
+    //takes the input value
+    var name = field.value;
+    //changes the value to an array
+    var namearray = name
+    //splits the array
+    var newNameArray = namearray.split('');
+    //sorts the array
+    var nameArraySort = newNameArray.sort();
+    //joins the array
+    return sortedName = nameArraySort.join('');
+  }
 
- // Create an event handler within the JS file that listens for a button click.
- var buttonEl = document.getElementById("my-button");
- buttonEl.addEventListener("click", function(){
-   // pushing button brings up prompt window.
-   var userName = prompt("Input your name: ", "");
-   console.log("userName =", userName);
+//finds the button element
+buttonEl = document.getElementById("mybutton");
+//finds the input element
+inputEl = document.getElementById("input");
+//finds the output element
+outputEl = document.getElementById("output");
 
-   //make the received string into an array.
-   var nameArray = userName.split('');
-   console.log("nameArray =", nameArray);
-   //sort that array.
-   var nameArraySort = nameArray.sort();
-   console.log("nameArraySort =", nameArraySort);
-   //make the array back into a string.
-   var nameSorted = nameArraySort.join('');
-   console.log("nameSorted =", nameSorted);
-
-   //gives results of "namesorted"
-   return nameSorted;
- })
-
- //writes the results in output area
+//detects button press
+buttonEl.addEventListener("click", function(){
+  var name = inputEl.value;
+  var newname = linearname(name);
+  outputEl.innerHTML = newname;
+});
